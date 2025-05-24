@@ -1,4 +1,4 @@
-package libb
+package liba
 
 import "testing"
 
@@ -11,8 +11,8 @@ func TestRecords(t *testing.T) {
 	DeleteRecord("Wednesday")
 
 	version := GetVersion()
-	if version != "v0.0.2" {
-		t.Errorf("Version %s, want %s", version, "v0.0.2")
+	if version != "v0.0.3" {
+		t.Errorf("Version %s, want %s", version, "v0.0.3")
 	}
 
 	records := GetRecords()

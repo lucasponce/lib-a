@@ -1,4 +1,4 @@
-package libb
+package liba
 
 import (
 	"fmt"
@@ -6,7 +6,7 @@ import (
 	"github.com/lucasponce/shared-x/pkg/tracks"
 )
 
-var VERSION = "v0.0.2"
+var VERSION = "v0.0.3"
 
 func GetVersion() string {
 	return VERSION
